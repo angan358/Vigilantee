@@ -145,3 +145,37 @@ footer{
     color: white;
     padding: 20px;
 }
+
+/*For the responsiveness of the website we used media queries*/
+@media(max-width:786px){
+    .hero-section{
+        min-height: 50vh;
+    }
+
+    .text-container{
+        padding: 10px 0;
+        text-align: center;
+    }
+    .lg-text{
+        font-size: 32px;
+    }
+
+    .black-box h2{
+        font-size: 24px;
+    }
+
+    .black-box h2 span{
+        font-weight: 400px;
+        font-size: 32px;
+    }
+    .bottom-section{
+        flex-direction: column;
+    }
+    h1{
+        font-size: 32px;
+    }
+    .about h2,
+    .contact h2{
+        font-size: 32px;
+    }
+}
