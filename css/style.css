@@ -10,14 +10,14 @@ html,
 body{
     line-height: 1.4;
     font-weight: 300;
-    font-family: 'Ubuntu', sans-serif;
+    font-family:  'Baloo Bhai 2', cursive;
 }
 
 
 /*Hero section styling*/
 
 .hero-section{
- background-image: url(../images/developer.png);
+ background-image: url(../images/nubelson-fernandes--Xqckh_XVU4-unsplash.jpg);
  min-height: 100vh;
  background-position: center;
  background-size: cover;
@@ -26,7 +26,7 @@ body{
 }
 
 .text-container{
-    color: rgb(246, 230, 7);
+    color: white;
     max-width: 900px;
     margin: 0 auto;
     padding-top: 64px;
